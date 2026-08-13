@@ -1,0 +1,2 @@
+model_name,max_len,pca_dim,train_size,valid_size,test_size,valid_accuracy,valid_weighted_f1,test_accuracy,test_weighted_f1,use_word_segmentation
+vinai/phobert-base,128,128,19999,4998,4998,0.6240496198479392,0.6240529707747916,0.6198479391756703,0.6196504818783722,True

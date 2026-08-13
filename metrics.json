@@ -1,0 +1,13 @@
+{
+  "model_name": "vinai/phobert-base",
+  "max_len": 128,
+  "pca_dim": 128,
+  "train_size": 19999,
+  "valid_size": 4998,
+  "test_size": 4998,
+  "valid_accuracy": 0.6240496198479392,
+  "valid_weighted_f1": 0.6240529707747916,
+  "test_accuracy": 0.6198479391756703,
+  "test_weighted_f1": 0.6196504818783722,
+  "use_word_segmentation": true
+}

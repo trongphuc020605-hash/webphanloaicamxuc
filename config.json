@@ -1,0 +1,9 @@
+{
+  "model_name": "vinai/phobert-base",
+  "max_len": 128,
+  "pca_dim": 128,
+  "text_col_original": "text",
+  "label_col_original": "label",
+  "use_word_segmentation": true,
+  "note": "Pipeline nhận input là embedding PhoBERT, không nhận trực tiếp text. Xem inference_sample.py để dự đoán text mới."
+}
