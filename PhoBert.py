@@ -58,7 +58,7 @@ def load_all_models():
 
     # 4. PhoBERT + PCA + SVM (Dùng file Pipeline duy nhất)
     try:
-        models['phobert_pipeline'] = joblib.load('pca_svm_pipeline.joblib')
+        models['phobert_pipeline'] = joblib.load('pca_svm_pipeline.pkl')
     except Exception as e:
         st.warning("⚠️ Chưa tìm thấy file pca_svm_pipeline.joblib. Bỏ qua mô hình PCA+SVM.")
         
