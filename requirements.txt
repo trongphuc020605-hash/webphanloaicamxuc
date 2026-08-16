@@ -3,10 +3,11 @@ pandas
 plotly
 numpy
 joblib
-matplotlib==3.10.6
-wordcloud==1.9.6
-transformers==5.4.0
-tensorflow==2.21.0
-underthesea==9.5.0
+matplotlib
+wordcloud
+transformers
+tensorflow
+underthesea
 openpyxl
 scikit-learn
+huggingface-hub
