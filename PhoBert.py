@@ -36,9 +36,8 @@ def load_all_models():
     # 1. PhoBERT Fine-tuned & Extractor (Lấy vector cho PCA)
     try:
         duong_dan_phobert = "PhucTG2k5P/phobert-cam-xuc-tmdt"
-        if os.path.exists(duong_dan_phobert):
-            models['phobert'] = pipeline("text-classification", model=duong_dan_phobert, tokenizer=duong_dan_phobert)
-            models['phobert_extractor'] = pipeline("feature-extraction", model=duong_dan_phobert, tokenizer=duong_dan_phobert)
+        models['phobert'] = pipeline("text-classification", model=duong_dan_phobert, tokenizer=duong_dan_phobert)
+        models['phobert_extractor'] = pipeline("feature-extraction", model=duong_dan_phobert, tokenizer=duong_dan_phobert)
     except Exception as e:
         st.error(f"Lỗi nạp PhoBERT: {e}")
 
