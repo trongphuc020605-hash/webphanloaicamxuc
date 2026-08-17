@@ -1,12 +1,12 @@
 streamlit
 pandas
 plotly
-numpy
+numpy<2.0.0
 joblib
 matplotlib
 wordcloud
 transformers
-tensorflow
+tensorflow-cpu
 underthesea
 openpyxl
 scikit-learn
